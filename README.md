@@ -12,7 +12,7 @@ This is a basic pizza ordering app built with Vite, JavaScript, and SCSS. The ap
 ## Technologies Used
 
 - Vite
-- JavaScript
+- TypeScript
 - SCSS
 
 ## Usage
