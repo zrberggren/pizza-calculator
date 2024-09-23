@@ -1,8 +1,7 @@
 
-// Import the calculatePrice function from the utils file
+// This function sets up an event listener on a form to calculate and display the total price of a pizza order when the form is submitted.
 import { calculatePrice } from "../utils/calculatePrice";
 
-// Export the PizzaCalculator function so it can be used in other files
 export function PizzaCalculator() {
     const form = document.getElementById('pizza-calculator') as HTMLFormElement;
 
@@ -13,7 +12,6 @@ export function PizzaCalculator() {
         const pizzaSize = (document.getElementById('pizzaSize') as HTMLSelectElement).value;
         const toppings = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
         .map(input => (input as HTMLInputElement).value);
-
 
         const price = calculatePrice(pizzaCount, pizzaSize, toppings);
 

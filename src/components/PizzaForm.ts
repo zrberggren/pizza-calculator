@@ -1,24 +1,16 @@
 
-// Export the PizzaForm function so it can be used in other files
+// This function returns an HTML string for a pizza order form with inputs for the number of pizzas, size, toppings, and a submit button.
 export function PizzaForm() {
-    // Return a string containing the HTML form for the pizza calculator
     return `
       <form id="pizza-calculator">
-        <!-- Label and input for the number of pizzas -->
         <label for="pizzaCount">Amount:</label>
         <input type="number" id="pizzaCount" value="1" min="1" />
-  
-        <!-- Label and dropdown for selecting the size of the pizza -->
-
         <label for="pizzaSize">Size:</label>
         <select id="pizzaSize">
           <option value="small">Small</option>
           <option value="medium">Medium</option>
           <option value="large">Large</option>
         </select>
-  
-        <!-- Label and checkboxes for selecting the toppings -->
-
         <label for="toppings">Toppings:</label>
         <input type="checkbox" id="toppingPepperoni" value="pepperoni" /> Pepperoni
         <input type="checkbox" id="toppingCheese" value="cheese" /> Extra Cheese
@@ -27,9 +19,6 @@ export function PizzaForm() {
         <input type="checkbox" id="toppingBacon" value="bacon" /> Bacon
         <input type="checkbox" id="toppingOnions" value="onions" /> Onions
         <input type="checkbox" id="toppingPineapple" value="pineapple" /> Pineapple
-
-        <!-- Button to submit the form and calculate the total amount -->
-
         <button type="submit">Calculate Amount</button>
       </form>
     `;
