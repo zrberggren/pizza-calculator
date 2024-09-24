@@ -6,6 +6,5 @@ export function calculatePrice(pizzaCount: number, pizzaSize: string, toppings: 
     const toppingPrice = toppings.length * 3;
     const totalPrice = (basePrice + toppingPrice) * pizzaCount;
 
-
     return totalPrice;
 }
