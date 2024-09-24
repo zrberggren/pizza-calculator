@@ -1,6 +1,6 @@
 # 🍕 Pizza Calculator
 
-This is a basic pizza ordering app built with Vite, JavaScript, and SCSS. The app allows users to select the number of pizzas, choose the size, and add various toppings. The total cost is then calculated and displayed to the user.
+This is a basic pizza ordering app built with Vite, TypeScript, and SCSS. The app allows users to select the number of pizzas, choose the size, and add various toppings. The total cost is then calculated and displayed to the user.
 
 ## Features
 
